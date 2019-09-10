@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:font-family="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>By All Memes</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Pacifico|Satisfy&display=swap" rel="stylesheet">
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+  <nav class='navbar navbar-default navbar-fixed-top navbar-custom' role='navigation'>
+    <div class='container'>
+      <div class='navbar-header'>
+        <a class='navbar-brand logo' href="/">By All Memes</a>
+        <div class="slogan">Optimize your spare time</div>
+      </div>
+      <ul class='nav navbar-nav'>
+        <li>
+          <br>
+          <br>
+          <br>
+          <%= simple_form_for :search, url: root_path, method: "GET" do |f| %>
+            <%= f.input :titulo, input_html: {value: ""}, placeholder: 'Search'%>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class='container'>
+      <%= yield %>
+    </div>
+
+  <footer>
+    <div class='container'>
+      Proyecto 2: Proyecto de Desarrollo de Software, Universidad de los Andes
+      <br>
+      Raimundo Gonzalez
+    </div>
+
+  </footer>
+
+  </body>
+</html>

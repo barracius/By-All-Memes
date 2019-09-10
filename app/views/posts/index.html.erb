@@ -1,0 +1,29 @@
+<div id="posts">
+  <% @posts.each do |post| %>
+    <div class="post">
+      <h2 class="title" style="color: black;">
+        <%= link_to post.titulo , post_path(post) %>
+      </h2>
+      <%= link_to image_tag(post.url_imagen, :class => "tamano_imagen"), post_path(post) %>
+      <p class="date">
+        <%= "Fuente: " %>
+        <% if post.fuente.include? "9gag" %>
+          <%= link_to "9gag", post.fuente %>
+        <% end %>
+        <% if post.fuente.include? "reddit" %>
+          <%= link_to "Reddit /r memes", post.fuente %>
+        <% end %>
+        <% if post.fuente.include? "imgur" %>
+          <%= link_to "Imgur /t memes", post.fuente %>
+        <% end %>
+      </p>
+    </div>
+  <% end %>
+</div>
+
+<% unless @posts.any? %>
+<h2>Oops.. No posts found with that title</h2>
+<%  end %>
+
+<!--client id = 44073d4814f21ac
+#client secret = 3ce8566b56b5c6946c08cbd8b6c47fd25c26cbc8-->
