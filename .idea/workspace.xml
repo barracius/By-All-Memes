@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85c22bd2-0bdf-4239-9248-0277b6bcb636" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
-    </list>
+    <list default="true" id="85c22bd2-0bdf-4239-9248-0277b6bcb636" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="479">
+              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -358,12 +356,12 @@
       <workItem from="1567389022996" duration="31051000" />
       <workItem from="1567607833040" duration="14285000" />
       <workItem from="1567808666800" duration="7616000" />
-      <workItem from="1568058127916" duration="19356000" />
+      <workItem from="1568058127916" duration="19963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81446000" />
+    <option name="totallyTimeSpent" value="82053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="927" height="1055" extended-state="4" />
@@ -517,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="479">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
         </state>
       </provider>
     </entry>
